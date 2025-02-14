@@ -15,6 +15,7 @@ $(document).ready(function () {
 
     renderUsers();
 
+    // Delete functionality without needing page refresh
     $("#delete").click(function () {
         if (users.length > 0) {
             users.pop();
